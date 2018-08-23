@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Sunflower:300,500,700');
+
+::placeholder {
+	font-family: 'Sunflower', sans-serif;
+	color: #888989;
+}
+
+body {
+		background: linear-gradient(.515turn, #490a3d, #bd1550);
+		height: calc(100vh);
+		overflow:hidden;
+		font-family: 'Sunflower', sans-serif;
+}
+
+input{
+	font-family: 'Sunflower', sans-serif;
+	width: calc(100% - 200px);
+	outline: none;
+	border: none;
+	background-color: #fff;
+	box-shadow: inset 1px 1px 0 2.5px rgba(0, 0, 0, .15);
+	border: 2px solid rgba(92, 80, 32, .5);
+	color: #64700e;
+	font-size: 16px;
+	padding: 2px 5px 0 8px;
+	line-height: 30px;
+	border-radius: 4px;
+	margin-bottom: 6px;
+}
+
+.formContainer{
+	text-align: left;
+	clear: both;
+	display: table;
+}
+
+button{
+	font-family: 'Sunflower', sans-serif;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: 700;
+	background-color: #8a9B0f;
+	border-radius: 4px;
+	color: #fff;
+	height: 32px;
+	border: none;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 5px 10px;
+	margin: 0 0 0 12px;
+}
+
+button:hover{
+	background-color: #64700e;
+}
+
+#quantity{
+	box-shadow: inset -2px -5px 50px 0 rgba(0, 0, 0, .45), 1px 1px 0 2.5px rgba(255, 255, 255, .3), inset 0.5px 0.5px 0 3px #e97f02;
+	background: linear-gradient(.515turn, #490a3d, #bd1550);
+	border-radius: 20px;
+	margin: 6px auto 0 auto;
+	padding: 20px 15px 15px 15px;
+	color: #fff;
+	font-weight: 700;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, .8);
+	font-size: 20px;
+	line-height: 34px;
+	height: 34px;
+}
+
+.App {
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+	width: 280px;
+	height: 120px;
+	margin: calc(50vh - 78px) auto;
+	box-shadow: 2px 5px 50px 0 rgba(0, 0, 0, .45), inset 1px 1px 0 2.5px rgba(255, 255, 255, .3), 0.5px 0.5px 0 3px #e97f02;
+	background-color: #f8d952;
+	border-radius: 20px;
+	padding: 20px 15px 15px 15px;
+}
