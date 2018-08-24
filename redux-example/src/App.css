@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Sunflower:300,500,700');
 
+* {
+	outline: none
+}
+
 ::placeholder {
 	font-family: 'Sunflower', sans-serif;
 	color: #888989;
