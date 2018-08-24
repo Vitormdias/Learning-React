@@ -10,8 +10,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onDeposit: () => dispatch(deposit(10)),
-    onWithdraw: () => dispatch(withdraw(10))
+    onDeposit: (value) => dispatch(deposit(value)),
+    onWithdraw: (value) => dispatch(withdraw(value))
   }
 }
 

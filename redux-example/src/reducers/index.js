@@ -6,11 +6,13 @@ let initialState = {
 }
 
 const cashOperation = (state = initialState, action) => {
+  const parsedValue = parseInt(action.value, 10) || 0;
+
   switch (action.type) {
     case DEPOSIT:
-      return Object.assign({}, state, { value: state.value + action.value })
+      return Object.assign({}, state, { value: state.value + parsedValue })
     case WITHDRAW:
-      return Object.assign({}, state, { value: state.value - action.value })
+      return Object.assign({}, state, { value: state.value - parsedValue })
     default:
       return state
   }

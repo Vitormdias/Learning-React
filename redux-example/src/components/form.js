@@ -6,9 +6,9 @@ export default class Form extends React.Component {
 
     return <div>
       <div className="formContainer">
-        <input placeholder="quantidade" />
-        <button onClick={onDeposit}>Depositar</button>
-        <button onClick={onWithdraw}>Sacar</button>
+        <input placeholder="quantidade" ref='input' />
+        <button onClick={() => onDeposit(this.refs.input.value)}>Depositar</button>
+        <button onClick={() => onWithdraw(this.refs.input.value)}>Sacar</button>
       </div>
       <p id="quantity">{value}</p>
     </div>
