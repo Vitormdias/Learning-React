@@ -1,9 +1,9 @@
 # Repositório para estudar React
 
-* [Seed]()
+* [Seed](https://github.com/Vitormdias/I-Dont-Know-React/tree/master/react-simple-seed)
 
-* [Redux]()
+* [Redux](https://github.com/Vitormdias/I-Dont-Know-React/tree/master/redux-example)
 
-* [Redux-Observabe]()
+* [Redux-Observable](https://github.com/Vitormdias/I-Dont-Know-React/tree/master/redux-observable-example)
 
-* [Redux-Saga][]
+* [Redux-Saga]()
