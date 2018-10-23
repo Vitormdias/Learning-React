@@ -1,5 +1,5 @@
 import { Observable } from 'rxjs';
-import { stateFactory } from '../stateFactory';
+import { stateFactory } from '../../stateFactory';
 
 const initialState = {
   count: 0
