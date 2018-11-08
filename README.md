@@ -1,4 +1,4 @@
-# Repositório para estudar React
+# Repository to study react and its ecosystem
 
 * [Seed](https://github.com/Vitormdias/I-Dont-Know-React/tree/master/react-simple-seed)
 
